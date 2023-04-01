@@ -1,0 +1,25 @@
+{
+    "name": "pajurancodes/configuration",
+    "type": "library",
+    "description": "A library for handling configuration files",
+    "keywords": ["configuration"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Community of PajuranCodes",
+            "homepage": "https://github.com/pajurancodes"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "symfony/finder": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PajuranCodes\\Configuration\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
